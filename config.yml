@@ -27,7 +27,7 @@ log_pings: true
 log_commands: false
 stats: 19659f49-ed6b-47e3-8b81-63bd14ade63a
 listeners:
-- motd: '&1Astraea&2Craft&f - 1.17 [W.I.P.]'
+- motd: '&bUlysses &3&lSMP &r- 1.17 [W.I.P.]'
   priorities:
   - lobby
   - survival
