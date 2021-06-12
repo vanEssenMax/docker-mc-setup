@@ -8,6 +8,7 @@ services:
       TYPE: "BUKKIT"
       MEMORY: "2G"
       ONLINE_MODE: "FALSE"
+      OPS: "ItsJotaroKujo"
     volumes:
       - ./data/lobbyserver:/data
     restart: always
@@ -17,6 +18,7 @@ services:
       EULA: "TRUE"
       MEMORY: "3G"
       ONLINE_MODE: "FALSE"
+      OPS: "ItsJotaroKujo"
     volumes:
       - ./data/mainserver:/data
     restart: always
