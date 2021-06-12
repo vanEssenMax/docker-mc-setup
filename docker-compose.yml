@@ -26,6 +26,7 @@ services:
     image: itzg/bungeecord
     environment:
       BUNGEE_JAR_REVISION: "1"
+      ENABLE_RCON: "TRUE"
     ports:
       - 25565:25577
     volumes:
