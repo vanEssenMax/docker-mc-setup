@@ -5,7 +5,7 @@ services:
     image: itzg/minecraft-server
     environment:
       EULA: "TRUE"
-      TYPE: "BUKKIT"
+      TYPE: "SPIGOT"
       MEMORY: "2G"
       ONLINE_MODE: "FALSE"
       OPS: "ItsJotaroKujo"
