@@ -1,20 +1,26 @@
 version: '3.5'
 
 services:
-  lobbyserver:
+  ls:
     image: itzg/minecraft-server
     environment:
       EULA: "TRUE"
       TYPE: "BUKKIT"
       ONLINE_MODE: "FALSE"
-  mainserver:
+    volumes:
+      - "ls:/data"
+    restart: always
+  ms:
     image: itzg/minecraft-server
     environment:
       EULA: "TRUE"
       MEMORY: "3G"
       ONLINE_MODE: "FALSE"
+    volumes:
+      - "ms:/data"
     ports:
       - 25566:25565
+    restart: always
   bungeecord:
     image: itzg/bungeecord
     environment:
