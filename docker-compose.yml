@@ -16,7 +16,7 @@ services:
     image: itzg/minecraft-server
     environment:
       EULA: "TRUE"
-      MEMORY: "3G"
+      MEMORY: "4G"
       ONLINE_MODE: "FALSE"
       OPS: "ItsJotaroKujo"
     volumes:
@@ -32,3 +32,4 @@ services:
     volumes:
       - ./data/bungeecord:/server
       - ./config.yml:/config/config.yml
+    restart: always
