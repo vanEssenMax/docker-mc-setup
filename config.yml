@@ -27,12 +27,11 @@ log_pings: true
 log_commands: false
 stats: 19659f49-ed6b-47e3-8b81-63bd14ade63a
 listeners:
-- motd: '&bUlysses &3&lSMP &r- 1.17 [W.I.P.]'
+- motd: '&bUlysses &3&lSMP &r- 1.17 [Coming Soon]'
   priorities:
   - lobby
-  - survival
   host: 0.0.0.0:25577
-  max_players: 10
+  max_players: 42
   force_default_server: false
   tab_size: 60
   forced_hosts:
