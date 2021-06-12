@@ -6,10 +6,13 @@ services:
     environment:
       EULA: "TRUE"
       TYPE: "BUKKIT"
+      ONLINE_MODE: "FALSE"
   mainserver:
     image: itzg/minecraft-server
     environment:
       EULA: "TRUE"
+      MEMORY: "3G"
+      ONLINE_MODE: "FALSE"
     ports:
       - 25566:25565
   bungeecord:
