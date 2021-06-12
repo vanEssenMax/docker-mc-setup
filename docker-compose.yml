@@ -31,5 +31,5 @@ services:
       - ./config.yml:/config/config.yml
 
 volumes:
-  ls: "./data/lobbyserver"
-  ms: "./data/mainserver"
+  ls: ./data/lobbyserver
+  ms: ./data/mainserver
