@@ -1,11 +1,17 @@
 version: '3.5'
 
 services:
-  mc:
+  lobbyserver:
     image: itzg/minecraft-server
     environment:
       EULA: "TRUE"
-      ONLINE_MODE: "FALSE"
+      TYPE: "BUKKIT"
+  mainserver:
+    image: itzg/minecraft-server
+    environment:
+      EULA: "TRUE"
+    ports:
+      - 25566:25565
   bungeecord:
     image: itzg/bungeecord
     environment:
