@@ -29,4 +29,5 @@ services:
     ports:
       - 25565:25577
     volumes:
+      - ./data/bungeecord:/data
       - ./config.yml:/config/config.yml
