@@ -29,3 +29,7 @@ services:
       - 25565:25577
     volumes:
       - ./config.yml:/config/config.yml
+
+volumes:
+  ls: "./data/lobbyserver"
+  ms: "./data/mainserver"
