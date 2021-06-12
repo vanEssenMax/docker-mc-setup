@@ -4,6 +4,8 @@ remote_ping_timeout: 5000
 groups:
   md_5:
   - admin
+  ItsJotaroKujo:
+  - admin
 servers:
   lobby:
     address: ls:25565
@@ -11,7 +13,7 @@ servers:
     motd: '&1Just another BungeeCord - Forced Host'
   survival:
     address: ms:25565
-    restricted: false
+    restricted: true
     motd: '&1Survival'
 remote_ping_cache: -1
 connection_throttle_limit: 3
@@ -25,7 +27,7 @@ log_pings: true
 log_commands: false
 stats: 19659f49-ed6b-47e3-8b81-63bd14ade63a
 listeners:
-- motd: '&1Another Bungee server'
+- motd: '&1Astraea&2Craft - 1.17 [W.I.P.]'
   priorities:
   - lobby
   - survival
