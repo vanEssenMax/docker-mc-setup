@@ -9,6 +9,10 @@ servers:
     address: mc:25565
     restricted: false
     motd: '&1Just another BungeeCord - Forced Host'
+  survival:
+    address: mc:25566
+    restricted: false
+    motd: '&1Survival'
 remote_ping_cache: -1
 connection_throttle_limit: 3
 online_mode: true
@@ -25,7 +29,7 @@ listeners:
   priorities:
   - lobby
   host: 0.0.0.0:25577
-  max_players: 1
+  max_players: 10
   force_default_server: false
   tab_size: 60
   forced_hosts:
