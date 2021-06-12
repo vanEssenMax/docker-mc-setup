@@ -18,8 +18,6 @@ services:
       ONLINE_MODE: "FALSE"
     volumes:
       - /data/mainserver
-    ports:
-      - 25566:25565
     restart: always
   bungeecord:
     image: itzg/bungeecord
